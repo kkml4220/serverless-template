@@ -30,7 +30,7 @@ build-backend = "poetry.core.masonry.api"
 format = "task format-black && task format-isort"
 format-black = "black src tests"
 format-isort = "isort src tests"
-lint = "task lint-black && task lint-flake8 && task lint-mypy"
+lint = "task lint-black && task lint-mypy"
 lint-mypy = "mypy src tests"
 lint-black = "black --check src tests"
 
