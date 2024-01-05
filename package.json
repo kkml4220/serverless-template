@@ -10,5 +10,12 @@
   "volta": {
     "node": "18.19.0",
     "npm": "10.2.5"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-ignore": "^0.2.1",
+    "serverless-offline": "^13.3.2",
+    "serverless-prune-plugin": "^2.0.2",
+    "serverless-python-requirements": "^6.0.1"
   }
 }
