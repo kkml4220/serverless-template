@@ -1,0 +1,10 @@
+{
+  "name": "serverless-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "serverless offline --hotreload"
+  },
+  "author": "Takahashi Katsuyuki <kattakaha@gmail.com> (https://github.com/kkml4220)",
+  "license": "ISC"
+}
