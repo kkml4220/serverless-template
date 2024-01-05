@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "serverless offline --hotreload"
+    "dev": "serverless offline start --reloadHandler --stage local",
+    "clean": "rm -rf .serverless .pytest_cache .mypy_cache .coverage .pytest_cache .mypy_cache .ruff_cache htmlcov"
   },
   "author": "Takahashi Katsuyuki <kattakaha@gmail.com> (https://github.com/kkml4220)",
   "license": "ISC",
